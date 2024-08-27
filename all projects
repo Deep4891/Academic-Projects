@@ -1,0 +1,30 @@
+Python Development - Port Scanning and Protocol Analysis Tool
+(github.com/Deep4891/Python-Port-Scanner-and-Protocol-Analyzer-/tree/main)
+•	Wrote a Python script to build a robust tool that performs packet capture and port scans in real time
+•	Used Scapy, psutil, sniff, TCP, UDP, IP and datetime libraries 
+•	The script also returns available network interfaces, and prompts the user whether to close the open ports   
+
+Reconnaissance and Information Gathering
+Tools: Nmap, nslookup, Wireshark, WHOIS, WhatWeb, Red Hawk, Burp Suite, sherlock, theHarvester
+•	Extensively performed Nmap stealth and aggressive scans to detect open ports
+•	Used Burp Suite on a website to get information on subdomains   
+•	Performed WhatWeb scans to identify web technologies being used by the target
+•	Used WHOIS record to figure out the domain name and IP address
+•	Enumerated usernames on different domains using sherlock tool
+
+Snort IDS
+Tools: Nessus, Wireshark
+•	Performed protocol analysis with tcpdump, Wireshark, and Network Miner
+•	Detected vulnerabilities with Nessus scan to correlate with Snort alerts 
+•	Used Snort IDS for monitoring networks and threat detection, assigned rules, and configured Snort
+•	Created Snort custom rules that generated 18 alerts 
+•	Investigated system logs and collected evidence of volatile data for forensics
+
+Gaining Remote Access to an Android Device (https://github.com/karma9874/AndroRAT, https://github.com/M4sc3r4n0/Evil-Droid)
+Tools: Evil-Droid, ngrok, Apache2, reverse_tcp multihander, BeEF
+•	Used Python script to generate an APK file embedded with a remote access trojan
+•	Used BeEf framework for phishing attack, masked a malicious URL, and sent to victim
+•	Created a malicious link and delivered a trojan APK through an Apache server
+•	Hosted a public TCP server using ngrok to exploit Android device as well
+•	Used reverse_tcp mulihandler as a payload
+•	Installed the malicious APK file and gained access to the shell
